@@ -1,20 +1,22 @@
 # AddMermaid
 
-Add mermaid.js redering for kanboard markdown texts.
+Add mermaid.js rendering for kanboard markdown texts.
 
-Author
-------------
+See [mermaid.js](https://mermaid-js.github.io/mermaid/#/) for available diagram types and their syntax. 
+
+## Author
+
 - Eugen Neuber
 - License MIT
 
-Requirements
-------------
+## Requirements
+
 Kanboard >= v1.0.48  
 Kanboard installed at a web server.
 You can find the download at [kanboard.org](https://kanboard.org/)
 
-Installation
-------------
+## Installation
+
 Install this plugin by cloning this repository into kanboard plugin directory:
 
 ```console
@@ -27,6 +29,19 @@ Note: Plugin folder is case-sensitive.
 
 ### :star: If you like it, do not forget to give a star on GitHub!
 
-:bug: Reporting Issues
-------------
+## Bug Reporting Issues
+
 Please [create an issue](https://github.com/euneuber/AddMermaid/issues) for any bugs you've found.
+
+## Example
+
+Add this snippet to your markdown text:
+
+```html
+<div class="mermaid">
+sequenceDiagram
+    Alice->>John: Hello John, how are you?
+    John-->>Alice: Great!
+    Alice-)John: See you later!
+</div>
+```
