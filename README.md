@@ -1,6 +1,6 @@
 # AddMermaid
 
-Add mermaid.js rendering for kanboard markdown texts.
+Add mermaid.js rendering for kanboard markdown texts - requires markdownplus
 
 See [mermaid.js](https://mermaid-js.github.io/mermaid/#/) for available diagram types and their syntax. 
 
@@ -14,6 +14,7 @@ See [mermaid.js](https://mermaid-js.github.io/mermaid/#/) for available diagram 
 Kanboard >= v1.0.48  
 Kanboard installed at a web server.
 You can find the download at [kanboard.org](https://kanboard.org/)
+Plugin [MarkdownPlus](https://github.com/creecros/MarkdownPlus)
 
 ## Installation
 
